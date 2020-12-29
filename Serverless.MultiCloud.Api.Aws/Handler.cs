@@ -6,6 +6,7 @@ using Amazon.Lambda.Core;
 
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 
 using Serverless.MultiCloud.Domain;
 using Serverless.MultiCloud.Domain.Abstractions;
@@ -23,7 +24,7 @@ namespace AwsDotnetCsharp
         {
             ServiceCollection services = new ServiceCollection();
 
-            services.AddLogging();
+            services.AddLogging(loggingBuilder => loggingBuilder.AddLambdaLogger());
             services.AddTransient<IDomainService, DomainService>();
             services.AddTransient<IRepository<DomainEntity>, AwsRepository>();
 
