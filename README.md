@@ -11,10 +11,10 @@ Is it possible to create a serverless service that is completely cloud-provider-
 - hello-world function deployed to azure.
 - Add common domain logic as an extra visual studio project
 - Use dependency injection to include domain logic in aws project
+- Add specific repository projects for aws (use dynamodb)
 
 # Next steps
 - Use dependency injection to include domain logic in azure project
-- Add specific repository projects for aws (use dynamodb)
 - Add specific repository projects for azure (use table-storage)
 
 # Issues
