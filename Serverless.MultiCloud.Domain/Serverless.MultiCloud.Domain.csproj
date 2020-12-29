@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Serverless.MultiCloud.Domain.Abstractions\Serverless.MultiCloud.Domain.Abstractions.csproj" />
+    <ProjectReference Include="..\Serverless.MultiCloud.Repository.Aws\Serverless.MultiCloud.Repository.Aws.csproj" />
   </ItemGroup>
 
 </Project>

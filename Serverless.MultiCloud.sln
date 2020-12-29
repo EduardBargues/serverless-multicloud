@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aws-csharp", "aws\aws-csharp.csproj", "{B5B0B7D8-34DD-4CD1-814B-1011CE0DEF6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serverless.MultiCloud.Api.Aws", "Serverless.MultiCloud.Api.Aws\Serverless.MultiCloud.Api.Aws.csproj", "{B5B0B7D8-34DD-4CD1-814B-1011CE0DEF6E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "azure-csharp", "azure\azure-csharp.csproj", "{C4D7F6F0-626C-4129-BBE6-F8304EC9DD26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serverless.MultiCloud.Api.Azure", "Serverless.MultiCloud.Api.Azure\Serverless.MultiCloud.Api.Azure.csproj", "{C4D7F6F0-626C-4129-BBE6-F8304EC9DD26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serverless.MultiCloud.Domain", "Serverless.MultiCloud.Domain\Serverless.MultiCloud.Domain.csproj", "{24A7A686-FDC7-48A1-919D-6A1DFB74C1D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serverless.MultiCloud.Domain", "Serverless.MultiCloud.Domain\Serverless.MultiCloud.Domain.csproj", "{24A7A686-FDC7-48A1-919D-6A1DFB74C1D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serverless.MultiCloud.Domain.Abstractions", "Serverless.MultiCloud.Domain.Abstractions\Serverless.MultiCloud.Domain.Abstractions.csproj", "{68650D14-A4DB-493D-B818-3782F6A57101}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serverless.MultiCloud.Domain.Abstractions", "Serverless.MultiCloud.Domain.Abstractions\Serverless.MultiCloud.Domain.Abstractions.csproj", "{68650D14-A4DB-493D-B818-3782F6A57101}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serverless.MultiCloud.Repository.Abstractions", "Serverless.MultiCloud.Repository.Abstractions\Serverless.MultiCloud.Repository.Abstractions.csproj", "{17CE5830-E20A-41C6-ACA4-AB24BAAC18A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serverless.MultiCloud.Repository.Aws", "Serverless.MultiCloud.Repository.Aws\Serverless.MultiCloud.Repository.Aws.csproj", "{FD953B46-A09B-4D63-85F2-31F10A0FA19D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,18 @@ Global
 		{68650D14-A4DB-493D-B818-3782F6A57101}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68650D14-A4DB-493D-B818-3782F6A57101}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68650D14-A4DB-493D-B818-3782F6A57101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17CE5830-E20A-41C6-ACA4-AB24BAAC18A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17CE5830-E20A-41C6-ACA4-AB24BAAC18A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17CE5830-E20A-41C6-ACA4-AB24BAAC18A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17CE5830-E20A-41C6-ACA4-AB24BAAC18A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD953B46-A09B-4D63-85F2-31F10A0FA19D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD953B46-A09B-4D63-85F2-31F10A0FA19D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD953B46-A09B-4D63-85F2-31F10A0FA19D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD953B46-A09B-4D63-85F2-31F10A0FA19D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2359F324-A0ED-470E-B7B1-BE7FB6566F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2359F324-A0ED-470E-B7B1-BE7FB6566F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2359F324-A0ED-470E-B7B1-BE7FB6566F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2359F324-A0ED-470E-B7B1-BE7FB6566F5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,3 +1,3 @@
 cd Serverless.MultiCloud.Api.Aws
-serverless deploy
-cd ..
+serverless package
+cd..
