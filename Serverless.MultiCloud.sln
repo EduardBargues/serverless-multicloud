@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aws-csharp", "aws\aws-cshar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "azure-csharp", "azure\azure-csharp.csproj", "{C4D7F6F0-626C-4129-BBE6-F8304EC9DD26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serverless.MultiCloud.Domain", "Serverless.MultiCloud.Domain\Serverless.MultiCloud.Domain.csproj", "{24A7A686-FDC7-48A1-919D-6A1DFB74C1D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serverless.MultiCloud.Domain.Abstractions", "Serverless.MultiCloud.Domain.Abstractions\Serverless.MultiCloud.Domain.Abstractions.csproj", "{68650D14-A4DB-493D-B818-3782F6A57101}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{C4D7F6F0-626C-4129-BBE6-F8304EC9DD26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4D7F6F0-626C-4129-BBE6-F8304EC9DD26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4D7F6F0-626C-4129-BBE6-F8304EC9DD26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24A7A686-FDC7-48A1-919D-6A1DFB74C1D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A7A686-FDC7-48A1-919D-6A1DFB74C1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24A7A686-FDC7-48A1-919D-6A1DFB74C1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24A7A686-FDC7-48A1-919D-6A1DFB74C1D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68650D14-A4DB-493D-B818-3782F6A57101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68650D14-A4DB-493D-B818-3782F6A57101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68650D14-A4DB-493D-B818-3782F6A57101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68650D14-A4DB-493D-B818-3782F6A57101}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
