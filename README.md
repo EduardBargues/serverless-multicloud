@@ -14,6 +14,8 @@ Is it possible to create a serverless service that is completely cloud-provider-
 
 # Next steps
 - Use dependency injection to include domain logic in azure project
+- Add specific repository projects for aws (use dynamodb)
+- Add specific repository projects for azure (use table-storage)
 
 # Issues
 - https://forum.serverless.com/t/azure-csharp-template-authlevel-issue/13523?u=eduardbargues
