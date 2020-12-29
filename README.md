@@ -9,7 +9,11 @@ Is it possible to create a serverless service that is completely cloud-provider-
 # What I did so far
 - hello-world function deployed to aws.
 - hello-world function deployed to azure.
+- Add common domain logic as an extra visual studio project
+- Use dependency injection to include domain logic in aws project
 
 # Next steps
-- Add common domain logic as an extra visual studio project
-- Use dependency injection to include common domain logic on each project
+- Use dependency injection to include domain logic in azure project
+
+# Issues
+- https://forum.serverless.com/t/azure-csharp-template-authlevel-issue/13523?u=eduardbargues
