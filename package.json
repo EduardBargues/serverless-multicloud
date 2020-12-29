@@ -1,0 +1,25 @@
+{
+  "name": "sls-multicloud",
+  "version": "1.0.0",
+  "description": "Is it possible to create a serverless service that is completely cloud-provider-agnostic? Let's try to answer this question together ;) ...",
+  "main": "index.js",
+  "dependencies": {
+    "serverless": "^2.16.1",
+    "serverless-azure-functions": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardBargues/serverless-multicloud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduardBargues/serverless-multicloud/issues"
+  },
+  "homepage": "https://github.com/EduardBargues/serverless-multicloud#readme"
+}

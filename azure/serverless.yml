@@ -1,0 +1,23 @@
+service: sls-multicloud
+
+frameworkVersion: '2'
+
+provider:
+  name: azure
+  region: West Europe
+  runtime: dotnet3.1 # dotnet3.1 or dotnet2.2 available
+
+  environment: # these will be created as application settings
+    VARIABLE_FOO: 'foo'
+
+plugins: # look for additional plugins in the community plugins repo: https://github.com/serverless/plugins
+  - serverless-azure-functions
+
+functions:
+  hello:
+    handler: src/handlers/hello.main
+    events:
+      - http: true
+        methods:
+          - GET
+        authLevel: anonymous

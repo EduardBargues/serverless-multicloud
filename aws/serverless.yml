@@ -1,4 +1,4 @@
-service: serverless-multicloud-hello-world
+service: sls-multicloud
 frameworkVersion: '2'
 provider:
   name: aws

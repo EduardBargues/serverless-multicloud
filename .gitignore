@@ -1,5 +1,7 @@
 node_modules
 .vs
+secrets.json
+setupAzureCredentials.ps1
 
 */bin
 */obj
